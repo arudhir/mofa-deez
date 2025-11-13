@@ -1,0 +1,30 @@
+# Core dependencies for multimodal integration analysis
+# Python 3.8+
+
+# Data manipulation
+numpy>=1.21.0
+pandas>=1.3.0
+pyarrow>=8.0.0  # For parquet file support
+
+# Visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Machine learning and statistics
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# MOFA2 - Multi-Omics Factor Analysis
+mofapy2>=0.6.0
+
+# Optional: for downloading real data
+boto3>=1.20.0  # AWS S3 access for JUMP-CP data
+requests>=2.26.0
+tqdm>=4.62.0
+
+# Optional: for L1000 data access
+# cmapPy>=4.0.0  # Uncomment if using LINCS/L1000 GCT files
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.0.0
